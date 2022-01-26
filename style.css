@@ -1,0 +1,43 @@
+.telefoonscrollsnap{
+    height: 300px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.telefoonscrollsnap.active{
+    cursor: grabbing;
+    transform: scale(1.02);
+}
+
+.telefoonscrollsnap::-webkit-scrollbar {
+	display:none
+}
+
+.item-1{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-color: thistle;
+}
+
+.item-2{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(211, 216, 191);
+}
+
+.item-3{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(191, 216, 191);
+}
+
+.item-4{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(191, 198, 216);
+}
